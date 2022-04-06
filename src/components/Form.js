@@ -15,8 +15,8 @@ export default function Form(){
                     <input className="input2" placeholder="Enter lower text"></input>
                 </div>
                 <input onClick={handleClick} type="button" value="Get a new meme image 🖼️"/>
+                {imageUrl && <img className="memeImage" src={imageUrl}/>}
             </form>
-            <img src={imageUrl}/>
         </div>
     )
 }
