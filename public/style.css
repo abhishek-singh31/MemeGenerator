@@ -46,6 +46,7 @@ form{
     display: flex;
     flex-direction: column;
     padding:10px;
+    
 }
 
 .input-div{
@@ -75,3 +76,4 @@ input[type="button"]{
     font-size: 16px;
     cursor: pointer;
 }
+
