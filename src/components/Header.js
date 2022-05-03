@@ -1,11 +1,14 @@
-export default function Header(){
+import React from "react"
+
+export default function Header() {
     return (
-        <nav>
-            <div className="image-box">
-                <img className="meme" src="./images/troll-face.png" alt="meme"/>
-                <h3>Meme Generator</h3>
-            </div>
-            <p>React Course - Project 3</p>
-        </nav>
+        <header className="header">
+            <img 
+                src="./images/troll-face.png" 
+                className="header--image"
+            />
+            <h2 className="header--title">Meme Generator</h2>
+            <h4 className="header--project">React Course - Project 3</h4>
+        </header>
     )
 }
